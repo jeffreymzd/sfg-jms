@@ -12,7 +12,8 @@ import org.springframework.jms.support.converter.MessageType;
 @Configuration
 public class JmsConfig {
 
-    public static final  String MY_QUEUE = "my-hellow-world-queue";
+    public static final String HELLO_WORLD_QUEUE = "my-hellow-world-queue";
+    public static final String SEND_RECEIVE_QUEUE = "reply-back-to-me-queue";
 
     @Bean
     public MessageConverter messageConverter() {
